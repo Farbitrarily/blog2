@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: rgb(30, 30, 30);
+}
+
+/* word style*/
+h1 {
+  color: red;
+  
+}
+
+h2 {
+  color: rgb(215, 231, 240);
+  
+}
+
+p {
+  color: green;
+  font-size: 1em;
+}
+
+li {
+  
+  list-style-type: square;
+  color: green;
+}
+
+/* sidebar style */
+.sidebar {
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("sidebar.jpg") ; /* 替换为你的图片URL */
+  background-size: cover; /* 使图片覆盖整个背景 */
+  background-position: center; /* 使图片居中 */
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(222, 222, 222);
+  display: block;
+}
+
+.sidebar a:link {
+  color: rgb(222, 222, 222);
+}
+
+.sidebar a:hover {
+  background-color: rgba(87, 87, 87, 0.7); /* 半透明背景色 */
+}
+.nav {
+  position: absolute;
+  top: 0;
+  overflow: auto; /* 允许内容滚动 */
+  width: 100%; /* 根据需要调整宽度 */
+  /* background-color: lightgreen; 仅用于显示效果 */
+  height: calc(100% - 5em); /* 确保不与 .bottom-div 重叠，假设 .bottom-div 高度为 50px */
+}
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+.footer {
+  margin: 10px;
+  margin-bottom: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Effect style */
+.bold {
+    font-weight: bold;
+  }
+.em {
+    color: rgb(196, 183, 210);
+  }
+.footer-word{
+  color: rgb(222, 222, 222);
+  font-size: 12px;
+}
+
+/* link style */
+  a:link {
+    color: rgb(130, 211, 217);
+  }
+  
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(196, 152, 243);
+  }
